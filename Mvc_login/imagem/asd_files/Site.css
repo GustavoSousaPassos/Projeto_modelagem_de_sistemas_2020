@@ -1,0 +1,131 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.produtos{
+    margin:80px 0;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+.cards{
+    margin-left:60px;
+    padding:0px !important;
+}
+.prev{
+    font-size:20px;
+    letter-spacing:2px;
+    text-align:justify;
+}
+.conteudo{
+    margin:100px 0px;
+}
+
+.h1-home{
+    margin-top:50px;
+}
+
+.h2-home{
+    margin-top:90px;
+}
+
+.img-conteudo{
+    margin:150px 14px;
+}
+
+.desc{
+    width:100%;
+    height:60px;
+    background-color:#000;
+    color:#fff;
+    padding:5px;
+    font-size:18px;
+}
+
+footer{
+    background-color:#000;
+    color:#fff;
+    padding:20px;
+}
+
+.img-section{
+    margin:120px 150px;
+}
+
+.img-section-circle {
+    width: 300px;
+    margin: 180px 150px;
+}
+.banner-empresa {
+    background-image: url('/imagem/empresa.jpg');
+    background-size:100%;
+    background-position:bottom;
+    height:300px;
+    margin-bottom:100px;
+}
+
+.figures{
+    
+}
+
+.banner-cliente {
+    background-image: url('/imagem/clientes.jpg');
+    background-size: 100%;
+    background-position: center;
+    height: 300px;
+    margin-bottom: 100px;
+}
+
+.figures-images{
+    height:200px;
+    padding:15px;
+}
+
+.h2-lista {
+    margin-top: 100px;
+}
+
+.textarea{
+    width:400px;
+}
+
+.btn-sub{
+    margin-top:20px;
+}
